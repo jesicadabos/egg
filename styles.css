@@ -6,7 +6,15 @@ body{
 h1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: 36px;
+    color: blue;
     text-align: center;
+}
+h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: blanchedalmond;
+    text-align:right;
+
 }
 
 p{
@@ -15,3 +23,25 @@ p{
     padding: 10px;
     margin: 20px;
 }
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 10px;
+  }
+
+  @media (max-width: 600px) {
+    .column {
+      flex: 100%;
+    }
+  }
